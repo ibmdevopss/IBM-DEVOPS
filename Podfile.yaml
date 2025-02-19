@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: service1
+spec:
+  containers:
+    - name: service1-container
+      image: localhost/service1-app:latest  # Correct image name here
